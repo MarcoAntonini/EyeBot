@@ -14,6 +14,9 @@
 #define SERVO_PWR_PIN 7 
 #define MIC_PIN 5 // preamp Mic on analog 0
 
+#define CAP_SENS_FOIL_PIN 2
+#define CAP_SENS_READ_PIN 4
+
 /********  Servo Configuration *********/
 
 #define HOME_SR 60 
@@ -26,7 +29,7 @@
 #define NOISE_THRESHOLD 400
 #define TOUCH_THRESHOLD 200
 
-#define FRENETIC_TIMEOUT 600000 //10 min
+#define FRENETIC_TIMEOUT 300000 //every 5 minutes of inactivity
 
 /********  Utils Constant *********/
 
@@ -37,7 +40,6 @@
 #define R 1
 
 #define SERIAL_DEBUG
-
 
 #ifdef SERIAL_DEBUG
 #define SERIAL_ECHO(x) MYSERIAL.println(x)

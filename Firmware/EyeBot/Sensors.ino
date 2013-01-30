@@ -1,14 +1,12 @@
 #include "EyeBot.h"
 #include "CapacitiveSensor.h"
 
-CapacitiveSensor cap_sens = CapacitiveSensor(4,2);  
-//CapacitiveSensor cap_sens_eye = CapacitiveSensor(4,5);   
+CapacitiveSensor cap_sens = CapacitiveSensor(CAP_SENS_READ_PIN,CAP_SENS_FOIL_PIN);  
 
 
 void sensorsInit()
 {
  cap_sens.set_CS_AutocaL_Millis(0xFFF);
- //cap_sens_eye.set_CS_AutocaL_Millis(0xFFF);
  pinMode(MIC_PIN,INPUT);
 }
 

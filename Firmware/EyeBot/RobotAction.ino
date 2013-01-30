@@ -194,7 +194,7 @@ void adorablePet()
 void freneticWatchDog()
 {
   if(millis()-time> FRENETIC_TIMEOUT ) {
-    frenetic(3);
+    frenetic(4);
     resetFreneticWatchdog();
   }
 }
@@ -202,7 +202,6 @@ void freneticWatchDog()
 void resetFreneticWatchdog()
 {
   time=millis();
-  Serial.println("Reset");
 }
 
 void greet() 

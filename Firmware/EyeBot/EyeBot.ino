@@ -12,7 +12,7 @@ void setup()
   servoInit();
   sensorsInit();
   standingHome();
-  frenetic(2);
+  greet();
   servoMotor(OFF);
   time=millis();
 }

@@ -7,8 +7,8 @@ void surprise();
 void frenetic(int step);
 void caress(); 
 void greet();
-void fearNoise();
-void adorablePet();
+void fearNoise();  //with Noise Sensors
+void adorablePet(); //with Touch Sensors
 
 /* Route */
 void goBackward(int step); 

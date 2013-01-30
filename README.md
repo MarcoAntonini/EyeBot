@@ -1,4 +1,4 @@
 EyeBot
 ======
 
-Adorable eye biped robot
+Adorable eye bipede robot
